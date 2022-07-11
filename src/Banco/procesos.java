@@ -1,6 +1,8 @@
+package Banco;
+
 import java.util.Scanner;
 
-public abstract class Procesos {
+public abstract class procesos {
     protected int retiros, depositos, transacciones;
     private int saldo;
     Scanner entrada = new Scanner(System.in);
@@ -26,13 +28,13 @@ public abstract class Procesos {
 
             } while (n1 == 0);
             if(seleccion == 1){
-                Procesos mensaje = new Retiros();
+                procesos mensaje = new Retiros();
 
             }else if(seleccion ==2 ){
-                Procesos mensaje = new Depositos();
+                procesos mensaje = new Depositos();
 
             }else if(seleccion ==3 ){
-                Procesos mensaje = new Consultas();
+                procesos mensaje = new Consultas();
 
             }else if(seleccion == 4 ){
                 System.out.println("Proceso finalizado");

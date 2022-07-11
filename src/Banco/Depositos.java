@@ -1,4 +1,6 @@
-public class Depositos extends Procesos {
+package Banco;
+
+public class Depositos extends procesos {
     @Override
     public void transacciones() {
         System.out.println("Cantidad a depositar: ");

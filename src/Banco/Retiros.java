@@ -1,4 +1,6 @@
-public class Retiros extends Procesos {
+package Banco;
+
+public class Retiros extends procesos {
     @Override
     public void transacciones() {
         System.out.print("Cuanto desea retirar: ");
